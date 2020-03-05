@@ -1,0 +1,59 @@
+/*  Labels
+------------------------------------ */
+
+.pp-tabs-labels {
+	display: none !important;
+}
+.pp-tabs-label.pp-tab-active {
+	/*position: static;*/
+}
+
+/*  Panel Labels
+------------------------------------ */
+
+.pp-tabs-panel-label {
+	display: table;
+	width: 100%;
+	padding: 20px 15px;
+}
+
+.pp-tabs-panel-label span {
+	width: auto;
+}
+
+/*  Panels
+------------------------------------ */
+
+.pp-tabs-panel:last-child {
+	border-bottom: none;
+}
+
+
+.pp-tabs-default .pp-tabs-panels {
+	border: 0;
+}
+
+/*  Horizontal
+------------------------------------ */
+
+.pp-tabs-horizontal .pp-tabs-label {
+	float: none;
+}
+.pp-tabs-horizontal .pp-tabs-label.pp-tab-active {
+	border: none;
+}
+
+/*  Vertical
+------------------------------------ */
+
+.pp-tabs-vertical .pp-tabs-labels {
+	float: none;
+	width: auto;
+}
+.pp-tabs-vertical .pp-tabs-label.pp-tab-active {
+	border: none;
+}
+.pp-tabs-vertical .pp-tabs-panels {
+	float: none;
+	width: auto;
+}

@@ -1,0 +1,79 @@
+.pp-accordion-button {
+	cursor: pointer;
+	display: table;
+}
+.pp-accordion-button-label {
+	display: table-cell;
+	vertical-align: middle;
+	width: 100%;
+}
+.pp-accordion-button-icon {
+	display: table-cell;
+	padding-left: 15px;
+	vertical-align: middle;
+}
+.pp-accordion-content {
+	display: none;
+}
+
+.pp-accordion-item .pp-accordion-button,
+.pp-accordion-item .pp-accordion-button:hover {
+	transition: all 0.1s ease-in;
+	-webkit-transition: all 0.1s ease-in;
+	-moz-transition: all 0.1s ease-in;
+	-ms-transition: all 0.1s ease-in;
+	-o-transition: all 0.31ss ease-in;
+}
+
+/* Small */
+.pp-accordion-small .pp-accordion-button {
+	padding: 10px 15px;
+}
+.pp-accordion-small .pp-accordion-content {
+	padding: 0 30px 10px 15px;
+}
+
+/* Medium */
+.pp-accordion-medium .pp-accordion-button {
+	padding: 15px 20px;
+}
+.pp-accordion-medium .pp-accordion-button-label {
+	font-size: 20px;
+}
+.pp-accordion-medium .pp-accordion-content {
+	padding: 0 40px 15px 20px;
+}
+
+/* Large */
+.pp-accordion-large .pp-accordion-button {
+	padding: 20px 25px;
+}
+.pp-accordion-large .pp-accordion-button-label {
+	font-size: 26px;
+}
+.pp-accordion-large .pp-accordion-content {
+	padding: 0 50px 25px 25px;
+}
+
+.pp-accordion span.pp-accordion-icon {
+    padding-right: 10px;
+    width: 20px;
+	height: auto;
+	line-height: 1.4;
+    display: table-cell;
+	vertical-align: middle;
+    text-align: center;
+    font-size: 16px;
+}
+
+.pp-accordion-button-icon.pp-accordion-close {
+	display: none;
+}
+
+.pp-accordion-item.pp-accordion-item-active .pp-accordion-close {
+	display: table-cell;
+}
+
+.pp-accordion-item.pp-accordion-item-active .pp-accordion-open {
+	display: none;
+}

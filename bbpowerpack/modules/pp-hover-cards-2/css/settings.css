@@ -1,0 +1,13 @@
+/**
+ * This file should contain admin styles that
+ * will be applied to the module settings forms.
+*/
+
+#fl-builder-settings-section-hover_card_image_section,
+#fl-builder-settings-section-hover_card_icon_style {
+	display: none;
+}
+
+#fl-builder-settings-section-style_type .demo-link {
+	color: #0074a2;
+}

@@ -1,0 +1,32 @@
+/* Clearfix */
+.clearfix:before,
+.clearfix:after {
+	content: " ";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+.fl-module .pp-notification-wrapper .pp-notification-icon {
+	float: left;
+	display: table;
+	margin-right: 10px;
+}
+.fl-module .pp-notification-wrapper .pp-notification-icon .pp-icon {
+	display: table-cell;
+	vertical-align: middle;
+}
+.fl-module .pp-notification-wrapper .pp-notification-icon .dashicons,
+.fl-module .pp-notification-wrapper .pp-notification-icon .dashicons-before:before {
+	font-size: inherit;
+	height: auto;
+	width: auto;
+}
+.fl-module .pp-notification-wrapper .pp-notification-content {
+	overflow: hidden;
+}
+.fl-module .pp-notification-wrapper .pp-notification-inner .pp-notification-content p:last-of-type {
+	margin-bottom: 0;
+}

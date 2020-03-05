@@ -1,0 +1,308 @@
+/* Clearfix */
+.clearfix:before,
+.clearfix:after {
+	content: " ";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+.fl-builder-settings-section select[name="image_select_src"] {
+	display: none;
+}
+
+.entry-content .pp-flipbox-title .pp-flipbox-front-title,
+.entry-content .pp-flipbox-title .pp-flipbox-back-title,
+.pp-flipbox-title .pp-flipbox-front-title,
+.pp-flipbox-title .pp-flipbox-back-title {
+	font-weight: 400;
+	margin-bottom: 5px;
+	margin-top: 0;
+}
+.pp-flipbox .pp-icon-wrapper {
+	margin-bottom: 10px;
+}
+.pp-flipbox-description p {
+	line-height: 1.4;
+	margin-bottom: 5px;
+}
+.pp-flipbox-description p:last-of-type {
+	margin-bottom: 0;
+}
+.pp-flipbox-description p img {
+	margin: 0;
+}
+.entry-content .pp-flipbox .pp-more-link,
+.pp-flipbox .pp-more-link {
+	box-shadow: none;
+	cursor: pointer;
+	display: inline-block;
+	margin-top: 10px;
+	padding: 10px 20px;
+	text-decoration: none;
+}
+.pp-flipbox-icon-inner .dashicons,
+.pp-flipbox-icon-inner .dashicons-before:before {
+	height: auto;
+	width: auto;
+}
+
+.pp-flipbox-back a.pp-flipbox-link,
+.pp-flipbox-back a.pp-flipbox-link:hover {
+	text-decoration: none;
+}
+
+/* Default layout */
+.pp-flip-box {
+	display: block;
+    position: relative;
+    -webkit-perspective: 1000px;
+    -moz-perspective: 1000px;
+    -o-perspective: 1000px;
+    -ms-perspective: 1000px;
+    perspective: 1000px;
+	text-align: center;
+	-webkit-transform-origin: center;
+    -ms-transform-origin: center;
+	transform-origin: center;
+	-webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	-ms-grid-row-align: center;
+	align-items: center;
+}
+.pp-flipbox-icon {
+	border: 0 solid;
+	display: inline-block;
+	margin: 0 auto;
+	text-align: center;
+}
+.pp-flipbox-icon-inner {
+	display: table;
+}
+.pp-flipbox-icon span.pp-icon {
+	display: table-cell;
+	vertical-align: middle;
+}
+.pp-flipbox-image {
+	margin-bottom: 20px;
+	text-align: center;
+}
+.pp-flipbox-image img {
+	border: 0px solid;
+	height: 2em;
+	width: 2em;
+}
+
+/* Flip */
+
+.pp-flipbox-wrap {
+    width: 100%;
+    height: 100%;
+	-webkit-transition: 750ms;
+	-moz-transition: 750ms;
+	-o-transition: 750ms;
+	-ms-transition: 750ms;
+	-webkit-transition: 750ms;
+    transition: 750ms;
+    -webkit-perspective: 1000px;
+    -moz-perspective: 1000px;
+    -o-perspective: 1000px;
+    -ms-perspective: 1000px;
+    perspective: 1000px;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+.pp-flipbox-container {
+	position: relative;
+	-webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+.pp-flipbox {
+	display: table;
+	height: 100%;
+	margin-bottom: 0;
+	padding: 20px;
+	text-align: center;
+	top: 0;
+	width: 100%;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-o-backface-visibility: hidden;
+	-ms-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-webkit-transition-duration: 750ms;
+	-moz-transition-duration: 750ms;
+	-o-transition-duration: 750ms;
+	-ms-transition-duration: 750ms;
+	transition-duration: 750ms;
+	-webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+.pp-flipbox-back {
+	position: absolute;
+}
+.pp-flipbox-inner {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+
+
+.pp-flip-box .pp-flip-type-left .pp-flipbox-front {
+    -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+}
+.pp-flip-box .pp-flip-type-left .pp-flipbox-back {
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    -ms-transform: rotateY(-180deg);
+    -o-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+}
+.pp-flip-box .pp-flip-type-left .pp-hover .pp-flipbox-back {
+    -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+}
+.pp-flip-box .pp-flip-type-left .pp-hover .pp-flipbox-front {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+.pp-flip-box .pp-flip-type-right .pp-flipbox-front {
+    -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+}
+.pp-flip-box .pp-flip-type-right .pp-flipbox-back {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+.pp-flip-box .pp-flip-type-right .pp-hover .pp-flipbox-back {
+    -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+}
+.pp-flip-box .pp-flip-type-right .pp-hover .pp-flipbox-front {
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    -ms-transform: rotateY(-180deg);
+    -o-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+}
+.pp-flip-box .pp-flip-type-bottom .pp-hover .pp-flipbox-back,
+.pp-flip-box .pp-flip-type-top .pp-hover .pp-flipbox-back {
+    -moz-transform: rotateX(0deg);
+    -ms-transform: rotateX(0deg);
+    -o-transform: rotateX(0deg);
+    -webkit-transform: rotateX(0deg);
+    transform: rotateX(0deg);
+}
+.pp-flip-box .pp-flip-type-top .pp-flipbox-back {
+    -webkit-transform: rotateX(180deg);
+    -moz-transform: rotateX(180deg);
+    -ms-transform: rotateX(180deg);
+    -o-transform: rotateX(180deg);
+    transform: rotateX(180deg);
+}
+.pp-flip-box .pp-flip-type-top .pp-flipbox-front {
+    -webkit-transform: rotateX(0deg);
+    -moz-transform: rotateX(0deg);
+    -ms-transform: rotateX(0deg);
+    -o-transform: rotateX(0deg);
+    transform: rotateX(0deg);
+}
+.pp-flip-box .pp-flip-type-bottom .pp-flipbox-back,
+.pp-flip-box .pp-flip-type-top .pp-hover .pp-flipbox-front {
+    -webkit-transform: rotateX(-180deg);
+    -moz-transform: rotateX(-180deg);
+    -ms-transform: rotateX(-180deg);
+    -o-transform: rotateX(-180deg);
+    transform: rotateX(-180deg);
+}
+.pp-flip-box .pp-flip-type-bottom .pp-flipbox-front {
+    -webkit-transform: rotateX(0deg);
+    -moz-transform: rotateX(0deg);
+    -ms-transform: rotateX(0deg);
+    -o-transform: rotateX(0deg);
+    transform: rotateX(0deg);
+}
+.pp-flip-box .pp-flip-type-bottom .pp-hover .pp-flipbox-front {
+    -webkit-transform: rotateX(180deg);
+    -moz-transform: rotateX(180deg);
+    -ms-transform: rotateX(180deg);
+    -o-transform: rotateX(180deg);
+    transform: rotateX(180deg);
+}
+
+.pp-flip-box.pp-browser-ie .pp-flipbox-wrap {
+	-webkit-perspective: 1000px;
+    -moz-perspective: 1000px;
+    -ms-perspective: 1000px;
+    perspective: 1000px;
+    -ms-transform: perspective(1000px);
+    transform: perspective(1000px);
+    -ms-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+.pp-flip-box.pp-browser-ie .pp-flipbox-container {
+	-webkit-transition: 750ms;
+    -webkit-transform-style: preserve-3d;
+    -ms-transition: 750ms;
+    -moz-transition: 750ms;
+    -moz-transform: perspective(1000px);
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transition: 750ms;
+    transform-style: preserve-3d;
+}
+.pp-flip-box.pp-browser-ie .pp-flipbox-container .pp-flipbox-front {
+	z-index: 0;
+}
+
+
+.pp-flip-box.pp-ie .pp-flipbox {
+	animation: stayvisible 0.5s both;
+	-webkit-animation: stayvisible 0.5s both;
+	-moz-animation: stayvisible 0.5s both;
+	-o-animation: stayvisible 0.5s both;
+	-ms-animation: donothing 0.5s;
+	-ms-transition: visibility 0s linear 0.17s;
+	transition: visibility 0s linear 0.17s;
+	visibility: visible;
+}
+
+@keyframes stayvisible { from { visibility: visible; } to { visibility: visible; } }
+@-webkit-keyframes stayvisible { from { visibility: visible; } to { visibility: visible; } }
+@-moz-keyframes stayvisible { from { visibility: visible; } to { visibility: visible; } }
+@-o-keyframes stayvisible { from { visibility: visible; } to { visibility: visible; } }

@@ -1,0 +1,87 @@
+/**
+ * This file should contain frontend styles that
+ * will be applied to all module instances.
+ */
+.pp-sitemap-label {
+	margin:0px;
+}
+.pp-sitemap-wrapper{
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-flow: row wrap;
+	-ms-flex-flow: row wrap;
+	flex-flow: row wrap;
+}
+
+.pp-sitemap-wrapper .tree, .pp-sitemap-wrapper .tree ul {
+	margin:0;
+	padding:0;
+	list-style:none
+}
+.pp-sitemap-wrapper .tree ul {
+	margin-left:1em;
+	position:relative
+}
+.pp-sitemap-wrapper .tree ul ul {
+	margin-left:.5em
+}
+.pp-sitemap-wrapper .tree ul:before {
+	content:"";
+	display:block;
+	width:0;
+	position:absolute;
+	top:0;
+	bottom:1em;
+	left:0;
+	border-left:1px solid
+}
+.pp-sitemap-wrapper .tree li {
+	margin:0;
+	padding:0 1em;
+	line-height:2em;
+	color:#369;
+	position:relative
+}
+.pp-sitemap-wrapper .tree ul li:before {
+	content:"";
+	display:block;
+	width:10px;
+	height:0;
+	border-top:1px solid;
+	margin-top:-1px;
+	position:absolute;
+	top:1em;
+	left:0
+}
+.pp-sitemap-wrapper .tree ul li:last-child:before {
+	height:auto;
+	top:1em;
+	bottom:0
+}
+.pp-sitemap-wrapper .indicator {
+	margin-right:5px;
+	cursor: pointer;
+}
+.pp-sitemap-wrapper .tree li a {
+	text-decoration: none;
+	color:#369;
+}
+.pp-sitemap-wrapper .tree li button, .pp-sitemap-wrapper .tree li button:active, .pp-sitemap-wrapper .tree li button:focus {
+	text-decoration: none;
+	color:#369;
+	border:none;
+	background:transparent;
+	margin:0px 0px 0px 0px;
+	padding:0px 0px 0px 0px;
+	outline: 0;
+}
+
+span.pp-sitemap-list{
+	display: block;
+}
+
+ul.pp-sitemap-list {
+	padding: 0; 
+	list-style-position: inside;
+}

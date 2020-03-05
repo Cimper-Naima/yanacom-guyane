@@ -1,0 +1,232 @@
+/* Clearfix */
+.clearfix:before,
+.clearfix:after {
+	content: " ";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+/* Default layout */
+.fl-module .pp-testimonials-image img {
+	border: 0 solid;
+	height: 100%;
+	width: 100%;
+	margin: 0 auto;
+	max-height: 150px;
+	max-width: 150px;
+}
+.fl-module .carousel-enabled .pp-testimonials-image img {
+	max-height: 100px;
+	max-width: 100px;
+}
+.pp-testimonials {
+	text-align: center;
+}
+.pp-testimonial {
+	padding: 15px;
+}
+.pp-testimonials-no-heading .pp-testimonials-heading {
+	display: none !important;
+}
+.pp-testimonials h3.pp-testimonials-title {
+	font-weight: 400;
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+.pp-testimonials h4.pp-testimonials-subtitle {
+	margin: 0;
+	text-transform: none;
+}
+.pp-testimonials .pp-content-wrapper {
+	background: transparent;
+	position: relative;
+}
+.pp-testimonials .pp-testimonials-content p {
+	margin-bottom: 15px;
+}
+.pp-testimonials .pp-testimonials-content p:last-of-type {
+	margin-bottom: 0;
+}
+.pp-testimonials .pp-vertical-align {
+	display: table;
+}
+.pp-testimonials .pp-vertical-align .pp-title-wrapper {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.pp-testimonials .pp-arrow-top {
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	border-bottom: 15px solid transparent;
+	height: 0;
+	left: 0;
+	margin: 0 auto;
+	position: absolute;
+	right: 0;
+	text-align: center;
+	top: -15px;
+	width: 0;
+}
+.pp-testimonials .pp-arrow-bottom {
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	border-top: 15px solid transparent;
+	height: 0;
+	left: 0;
+	margin: 0 auto;
+	position: absolute;
+	right: 0;
+	text-align: center;
+	bottom: -15px;
+	width: 0;
+}
+.pp-testimonials .pp-arrow-left {
+	border-top: 15px solid transparent;
+	border-bottom: 15px solid transparent;
+	border-right: 15px solid transparent;
+	height: 0;
+	left: -15px;
+	position: absolute;
+	top: 30px;
+	width: 0;
+}
+
+/* Layouts */
+
+/* Layout 1 */
+.pp-testimonials .layout-1 {
+	text-align: center;
+}
+.pp-testimonials .layout-1 .pp-testimonials-image img {
+	margin-bottom: 20px;
+}
+.pp-testimonials .layout-1 .pp-testimonials-content p:last-of-type {
+	margin-bottom: 15px;
+}
+
+/* Layout 2 */
+.pp-testimonials .layout-2 {
+	text-align: center;
+}
+.pp-testimonials .layout-2 .pp-testimonials-image {
+	display: inline-block;
+	margin-right: 25px;
+}
+.pp-testimonials .layout-2  .pp-vertical-align {
+	margin: 0 auto;
+}
+.pp-testimonials .layout-2 .pp-content-wrapper {
+	margin-bottom: 25px;
+}
+
+/* Layout 3 */
+.pp-testimonials .layout-3 .pp-testimonials-image {
+	float: left;
+	margin-right: 30px;
+	max-width: 150px;
+	width: 22%;
+}
+.pp-testimonials .layout-3 .layout-3-content {
+	float: left;
+	text-align: left;
+	width: 75%;
+}
+.pp-testimonials .layout-3.carousel-enabled .pp-testimonials-image {
+	max-width: 100px;
+}
+.pp-testimonials .layout-3.carousel-enabled .pp-testimonials-image img {
+	width: 100%;
+}
+.pp-testimonials .layout-3 .pp-testimonials-content p:last-of-type {
+	margin-bottom: 15px;
+}
+
+/* Layout 4 */
+.pp-testimonials .layout-4 .layout-4-content {
+	background: #eee;
+	padding: 100px 50px 50px;
+	position: relative;
+	top: -75px;
+	z-index: 9;
+}
+.pp-testimonials .layout-4 .pp-testimonials-image {
+	position: relative;
+	z-index: 10;
+}
+.pp-testimonials .layout-4 .pp-testimonials-content p:last-of-type {
+	margin-bottom: 15px;
+}
+.pp-testimonials .layout-4-container .bx-wrapper {
+	margin-bottom: 0;
+}
+.pp-testimonials .layout-4-container .bx-pager {
+    bottom: 40px;
+}
+.pp-testimonials .layout-4-container.carousel-enabled .bx-pager {
+	bottom: 30px;
+}
+.pp-testimonials .layout-4.no-image-inner .layout-4-content,
+.pp-testimonials .layout-4.carousel-enabled.no-image-inner .layout-4-content {
+	padding-top: 50px;
+	top: 0;
+}
+
+/* Layout 5 */
+.pp-testimonials .layout-5 {
+	text-align: center;
+}
+.pp-testimonials .layout-5 .pp-testimonials-image {
+	display: inline-block;
+	margin-right: 25px;
+}
+.pp-testimonials .layout-5 .pp-vertical-align {
+	margin: 0 auto;
+	width: 100%;
+}
+
+/* Wrappers */
+.pp-module-testimonials .bx-wrapper {
+	margin: 0 auto 35px;
+}
+.pp-testimonials-wrap {
+	position: relative;
+}
+.pp-testimonials-wrap .pp-testimonial {
+	position: absolute;
+	top: 0;
+	visibility: hidden;
+}
+.pp-testimonials-wrap .pp-testimonial:first-child,
+.pp-testimonials-loaded .pp-testimonial {
+	position: relative;
+	visibility: visible;
+}
+.pp-testimonials-wrap .fa {
+	opacity: 0.8;
+	-webkit-transition: opacity 0.2s;
+	-moz-transition: opacity 0.2s;
+	-o-transition: opacity 0.2s;
+	-ms-transition: opacity 0.2s;
+	transition: opacity 0.2s;
+}
+.pp-testimonials-wrap .fa:hover {
+	opacity: 1;
+}
+.pp-testimonials-wrap .pp-arrow-wrapper {
+	margin-bottom: 10px;
+	text-align: center;
+}
+.pp-testimonials-wrap .pp-arrow-wrapper .pp-slider-nav {
+	display: inline-block;
+	margin-right: 5px;
+}
+.pp-testimonials-wrap .pp-arrow-wrapper .pp-slider-nav a {
+	box-shadow: none;
+}
+.pp-testimonials-wrap .pp-arrow-wrapper .pp-slider-nav a:focus {
+	outline: none;
+}

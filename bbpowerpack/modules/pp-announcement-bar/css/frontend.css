@@ -1,0 +1,92 @@
+/* Clearfix */
+.clearfix:before,
+.clearfix:after {
+	content: " ";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+.fl-builder-edit .pp-announcement-bar-wrap {
+	position: relative;
+}
+.pp-helper {
+	background: rgba(255, 255, 255, .9);
+	color: #000;
+	padding: 3px;
+}
+
+.pp-announcement-bar {
+	-webkit-transition: all .3s linear;
+	-moz-transition: all .3s linear;
+	-ms-transition: all .3s linear;
+	transition: all .3s linear;
+}
+
+.pp-announcement-bar-wrap {
+	display: block;
+	left: 0;
+	position: fixed;
+	right: 0;
+	width: 100%;
+	z-index: 999999;
+}
+.pp-announcement-bar-wrap.pp-announcement-bar-top {
+	-webkit-transition: all .3s linear;
+	-moz-transition: all .3s linear;
+	-ms-transition: all .3s linear;
+	transition: all .3s linear;
+}
+.pp-announcement-bar-wrap.pp-announcement-bar-bottom {
+	-webkit-transition: opacity .3s linear, visibility .3s linear;
+	-moz-transition: opacity .3s linear, visibility .3s linear;
+	-o-transition: opacity .3s linear, visibility .3s linear;
+	-ms-transition: opacity .3s linear, visibility .3s linear;
+	transition: opacity .3s linear, visibility .3s linear;
+}
+.pp-announcement-bar-wrap .pp-announcement-bar-inner {
+	display: table;
+	width: 100%;
+}
+
+.pp-announcement-bar-content,
+.pp-announcement-bar-close-button {
+	display: table-cell;
+	margin: 0 10px;
+	padding: 5px;
+	vertical-align: middle;
+	width: 100%;
+}
+.pp-announcement-bar-close-button {
+	cursor: pointer;
+	padding-right: 10px;
+	text-align: right;
+	position: relative;
+    right: 10px;
+}
+.pp-announcement-bar-link,
+.pp-announcement-bar-icon,
+.pp-announcement-bar-content p {
+	display: inline-block;
+	margin: 0 10px;
+}
+.pp-announcement-bar-content p {
+	margin-bottom: 0;
+}
+.pp-announcement-bar-content a {
+	display: inline-block;
+	text-decoration: none;
+	-webkit-transition: all .3s linear;
+	-moz-transition: all .3s linear;
+	-o-transition: all .3s linear;
+	-ms-transition: all .3s linear;
+	transition: all .3s linear;
+}
+.pp-announcement-bar-wrap .pp-announcement-bar-icon .dashicons,
+.pp-announcement-bar-wrap .pp-announcement-bar-icon .dashicons-before:before {
+	font-size: inherit;
+	height: auto;
+	width: auto;
+}

@@ -1,0 +1,35 @@
+/**
+ * This file should contain frontend styles that
+ * will be applied to all module instances.
+ */
+
+.bb-nf-input.input-small {
+    width: 46px !important;
+}
+
+.pp-ninja-form-content {
+	position: relative;
+}
+
+.pp-ninja-form-content .pp-form-title,
+.pp-ninja-form-content .pp-form-description {
+	position: relative;
+}
+
+.pp-ninja-form-content .field-wrap input[type=radio],
+.pp-ninja-form-content .field-wrap input[type=checkbox] {
+    height: auto !important;
+    width: auto !important;
+}
+
+.pp-ninja-form-content .ninja-forms-form-wrap input[type="submit"] {
+    box-shadow: none !important;
+}
+
+.pp-ninja-form-content .ninja-forms-form-wrap .list-multi-wrap select {
+    height: auto !important;
+}
+
+.pp-ninja-form-content .nf-field-container {
+	margin-bottom: 0;
+}

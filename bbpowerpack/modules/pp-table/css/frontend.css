@@ -1,0 +1,22 @@
+.pp-table-content thead {
+	border: 0;
+}
+
+.pp-table-content thead tr th {
+	font-size: 14px;
+}
+
+.pp-table-content thead tr:first-child th {
+	font-family: inherit;
+	text-shadow: none;
+}
+
+.pp-table-content tbody tr td {
+	font-size: 14px;
+}
+
+.pp-table-content th button,
+.pp-table-content.tablesaw-sortable th.tablesaw-sortable-head button {
+	box-shadow: none !important;
+	padding: 0;
+}

@@ -1,0 +1,44 @@
+/**
+ * This file should contain frontend styles that
+ * will be applied to all module instances.
+ */
+
+.bb-ff-input.input-small {
+    width: 46px !important;
+}
+
+.pp-ff-content {
+	position: relative;
+}
+
+.pp-ff-content .pp-form-title,
+.pp-ff-content .pp-form-description {
+	position: relative;
+}
+
+.pp-ff-content .frm_forms {
+    max-width: 100%;
+	position: relative;
+}
+
+tr#fl-field-form_desc td .fl-field-description {
+    display: block;
+    color: #777;
+    margin-top: -15px;
+    margin-bottom: 10px;
+}
+
+.pp-ff-content .frm_forms .form-field .frm_opt_container input[type="text"]:not(.frm_pos_none) {
+    display: inline-block;
+}
+
+.pp-ff-content .frm_forms input[type=submit],
+.pp-ff-content .frm_forms input[type=button],
+.pp-ff-content .frm_forms input[type=reset] {
+    box-shadow: none;
+}
+
+.pp-ff-content .frm_forms .form-field input:not([type='radio']):not([type='checkbox']):not([type='submit']):not([type='button']):not([type='image']):not([type='file']),
+.pp-ff-content .frm_forms .form-field select {
+    height: auto;
+}

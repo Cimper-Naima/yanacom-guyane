@@ -1,0 +1,64 @@
+/* Sticky */
+.fl-builder-content[data-type="header"].bb-powerpack-header-sticky {
+	left: 0;
+	position: fixed;
+	right: 0;
+	top: 0;
+	width: 100%;
+	z-index: 100;
+}
+.admin-bar .fl-builder-content[data-type="header"].bb-powerpack-header-sticky {
+	top: 32px;
+}
+
+/* Shrink */
+.fl-builder-content[data-shrink="1"] .fl-row-content-wrap,
+.fl-builder-content[data-shrink="1"] .fl-col-content,
+.fl-builder-content[data-shrink="1"] .fl-module-content,
+.fl-builder-content[data-shrink="1"] img {
+	-webkit-transition: all 0.3s ease-in-out, background-position 1ms;
+	-moz-transition: all 0.3s ease-in-out, background-position 1ms;
+	transition: all 0.3s ease-in-out, background-position 1ms;
+}
+.fl-builder-content[data-shrink="1"] img {
+	width: auto;
+}
+.fl-builder-content[data-type="header"].bb-powerpack-header-shrink .fl-row-content-wrap {
+	margin-bottom: 0;
+	margin-top: 0;
+}
+.bb-powerpack-header-shrink-row-bottom.fl-row-content-wrap {
+	padding-bottom: 5px;
+}
+.bb-powerpack-header-shrink-row-top.fl-row-content-wrap {
+	padding-top: 5px;
+}
+.fl-builder-content[data-type="header"].bb-powerpack-header-shrink .fl-col-content {
+	margin-bottom: 0;
+	margin-top: 0;
+	padding-bottom: 0;
+	padding-top: 0;
+}
+.bb-powerpack-header-shrink-module-bottom.fl-module-content {
+	margin-bottom: 5px;
+}
+.bb-powerpack-header-shrink-module-top.fl-module-content {
+	margin-top: 5px;
+}
+.fl-builder-content[data-type="header"].bb-powerpack-header-shrink img {
+	max-height: 50px;
+}
+
+/* Overlay */
+.fl-builder-content[data-overlay="1"]:not(.bb-powerpack-header-sticky) {
+	position: absolute;
+	width: 100%;
+	z-index: 100;
+}
+.fl-builder-edit body:not(.single-fl-theme-layout) .fl-builder-content[data-overlay="1"] {
+	display: none;
+}
+body:not(.single-fl-theme-layout) .fl-builder-content[data-overlay="1"]:not(.bb-powerpack-header-scrolled):not([data-overlay-bg="default"]) .fl-row-content-wrap,
+body:not(.single-fl-theme-layout) .fl-builder-content[data-overlay="1"]:not(.bb-powerpack-header-scrolled):not([data-overlay-bg="default"]) .fl-col-content {
+	background: transparent;
+}

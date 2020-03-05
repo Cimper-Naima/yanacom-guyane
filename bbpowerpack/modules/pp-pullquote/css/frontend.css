@@ -1,0 +1,36 @@
+/* Clearfix */
+.clearfix:before,
+.clearfix:after {
+	content: " ";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+/* Default layout */
+.fl-module .pp-pullquote-wrapper {
+	margin: 0 auto;
+}
+.fl-module .pp-pullquote-wrapper .pp-pullquote-title h4 {
+	margin-bottom: 10px;
+	margin-top: 0;
+}
+.fl-module .pp-pullquote-wrapper .pp-pullquote-content p {
+	margin-bottom: 15px;
+	margin-top: 0;
+}
+.fl-module .pp-pullquote-wrapper .pp-pullquote-icon {
+	float: left;
+	margin-right: 15px;
+}
+.fl-module .pp-pullquote-wrapper .pp-pullquote-icon .dashicons,
+.fl-module .pp-pullquote-wrapper .pp-pullquote-icon .dashicons-before:before {
+	font-size: inherit;
+	height: auto;
+	width: auto;
+}
+.fl-module .pp-pullquote-wrapper .pp-pullquote-inner {
+	overflow: hidden;
+}

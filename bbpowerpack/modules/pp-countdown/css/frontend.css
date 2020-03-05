@@ -1,0 +1,147 @@
+.pp-module-content.pp-countdown.pp-timer{ width:100%; /*float:left;*/}
+
+.pp-module-content.pp-countdown.pp-fixed-date-countWeeks,
+.pp-module-content.pp-countdown.pp-fixed-date-countDays,
+.pp-module-content.pp-countdown.pp-fixed-date-countHours,
+.pp-module-content.pp-countdown.pp-fixed-date-countMinutes,
+.pp-module-content.pp-countdown.pp-fixed-date-countSeconds,
+.pp-module-content.pp-countdown.pp-evergreen-date-countWeeks,
+.pp-module-content.pp-countdown.pp-evergreen-date-countDays,
+.pp-module-content.pp-countdown.pp-evergreen-date-countHours,
+.pp-module-content.pp-countdown.pp-evergreen-date-countMinutes,
+.pp-module-content.pp-countdown.pp-evergreen-date-countSeconds {
+    border: 4px solid #000;
+    border-radius: 50%;
+    padding: 30px;
+    margin-right: 20px;
+}
+
+.pp-countdown-item .pp-countdown-label,
+.pp-countdown-item .pp-countdown-digit {
+    padding: 0;
+    margin: 0;
+}
+
+.pp-countdown .pp-countdown-digit-wrapper.square {
+    display: -webkit-box;
+    display: -ms-flexbox;
+	display: flex;
+	box-pack: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+	justify-content: center;
+	box-align: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+	align-items: center;
+	box-orient: vertical;
+	-webkit-box-orient: vertical;
+	box-direction: normal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+/* jQuery Countdown styles 2.0.0. */
+.countdown-rtl {
+    direction: rtl;
+}
+.countdown-holding span {
+    color: #888;
+}
+.countdown-row {
+    clear: both;
+    width: 100%;
+    padding: 0px 2px;
+    text-align: center;
+}
+.countdown-show1 .countdown-section {
+    width: 98%;
+}
+.countdown-show2 .countdown-section {
+    width: 48%;
+}
+.countdown-show3 .countdown-section {
+    width: 32.5%;
+}
+.countdown-show4 .countdown-section {
+    width: 24.5%;
+}
+.countdown-show5 .countdown-section {
+    width: 19.5%;
+}
+.countdown-show6 .countdown-section {
+    width: 16.25%;
+}
+.countdown-show7 .countdown-section {
+    width: 14%;
+}
+.countdown-section {
+    display: block;
+    /*float: left;*/
+    font-size: 75%;
+    text-align: center;
+}
+.countdown-amount {
+    font-size: 200%;
+}
+.countdown-period {
+    display: block;
+}
+.countdown-descr {
+    display: block;
+    width: 100%;
+}
+
+.pp-countdown-fixed-timer,
+.pp-countdown-evergreen-timer {
+    width: 100%;
+    display: block;
+}
+.pp-countdown-fixed-timer .pp-countdown-item,
+.pp-countdown-evergreen-timer .pp-countdown-item {
+    /*float: left;*/
+    display: inline-block;
+    margin-bottom: 15px;
+	position: relative;
+}
+
+.pp-countdown-digit-wrapper,
+.pp-countdown-label-wrapper {
+	text-align: center;
+	position: relative;
+}
+
+/* Timer separator */
+.pp-countdown.pp-countdown-separator-line .pp-countdown-item {
+	position: relative;
+	padding: 0;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.pp-countdown.pp-countdown-separator-colon .pp-countdown-item .pp-countdown-digit-wrapper:after {
+	content: ':';
+	display: inline-block;
+	font-size: 30px;
+	position: absolute;
+	right: -5px;
+	top: 50%;
+	z-index: 10;
+	-webkit-transform: translateY(-50%);
+	   -moz-transform: translateY(-50%);
+			transform: translateY(-50%);
+}
+.pp-countdown.pp-countdown-separator-line .pp-countdown-item:after {
+	content: '';
+	display: inline-block;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	z-index: 10;
+	border-right: 1px solid #ccc;
+}
+.pp-countdown.pp-countdown-separator-colon .pp-countdown-item:last-child .pp-countdown-digit-wrapper:after,
+.pp-countdown.pp-countdown-separator-line .pp-countdown-item:last-child:after {
+	content: none;
+}

@@ -1,0 +1,28 @@
+.pp-hotspot span.pp-marker-title {
+	position: absolute;
+    bottom: -30px;
+    left: -50px;
+    right: -50px;
+    width: auto;
+	background: #ef4f4f;
+    color: #fff;
+}
+
+.tooltipster-sidetip .tooltipster-arrow {
+    overflow: visible;
+}
+.tooltipster-sidetip.tooltipster-top .tooltipster-arrow-uncropped {
+    bottom: -2px;
+}
+.tooltipster-sidetip.tooltipster-bottom .tooltipster-arrow-uncropped {
+    top: -12px;
+}
+.tooltipster-sidetip.tooltipster-left .tooltipster-arrow-uncropped {
+    right: -2px;
+}
+.tooltipster-sidetip.tooltipster-right .tooltipster-arrow-uncropped {
+    left: -12px;
+}
+.tooltipster-sidetip .tooltipster-arrow-background {
+    display: none !important;
+}

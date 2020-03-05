@@ -1,0 +1,13 @@
+.fl-builder-settings-section-content .fl-builder-settings-description {
+	margin-top: 10px;
+	padding-bottom: 0;
+	font-style: normal;
+}
+
+.fl-builder-settings.pp-video-gallery-layout-gallery #fl-builder-settings-section-nav_style,
+.fl-builder-settings.pp-video-gallery-layout-gallery #fl-builder-settings-section-pagination_style,
+.fl-builder-settings.pp-video-gallery-layout-carousel #fl-builder-settings-section-filters,
+.fl-builder-settings.pp-video-gallery-layout-carousel #fl-builder-settings-section-filters_style,
+.fl-builder-settings.pp-video-gallery-layout-carousel #fl-builder-settings-section-filters_typography {
+	display: none !important;
+}

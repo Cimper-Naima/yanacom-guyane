@@ -1,0 +1,12 @@
+.pp-pricing-table .pp-pricing-table-col-8,
+.pp-pricing-table .pp-pricing-table-col-7,
+.pp-pricing-table .pp-pricing-table-col-6,
+.pp-pricing-table .pp-pricing-table-col-5,
+.pp-pricing-table .pp-pricing-table-col-4,
+.pp-pricing-table .pp-pricing-table-col-3,
+.pp-pricing-table .pp-pricing-table-col-2,
+.pp-pricing-table .pp-pricing-table-col-1 {
+	width: 90%;
+	float: none;
+	margin: 35px auto;
+}

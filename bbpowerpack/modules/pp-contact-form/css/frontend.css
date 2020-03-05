@@ -1,0 +1,127 @@
+.bb-cf-input.input-small {
+	width: 50px !important;
+}
+.pp-input-group {
+	margin-bottom: 10px;
+	position: relative;
+}
+.pp-clearfix:after {
+	content: "";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+.pp-align-left {
+	text-align: left;
+}
+.pp-align-right {
+	text-align: right;
+}
+.pp-align-center {
+	text-align: center;
+}
+.pp-contact-form textarea,
+.pp-contact-form input[type=text],
+.pp-contact-form input[type=tel],
+.pp-contact-form input[type=email] {
+	display: inline-block;
+	width: 100%;
+	outline: 0;
+}
+.pp-contact-form .pp-contact-required {
+	font-style: italic;
+	font-size: 12px;
+}
+.pp-contact-form label {
+	display: inline-block;
+	margin-right: 10px;
+}
+.pp-contact-form .pp-checkbox label {
+	font-weight: 400;
+	display: inline !important;
+	cursor: pointer !important;
+}
+.pp-contact-form .pp-contact-error {
+	color: #DD4420;
+	display: none;
+	font-size: 12px;
+	font-weight: 400;
+	margin-top: 2px;
+}
+.pp-contact-form .pp-email .pp-contact-error {
+	margin-right: 10%;
+}
+.pp-contact-form .pp-error textarea,
+.pp-contact-form .pp-error input[type=text],
+.pp-contact-form .pp-error input[type=tel],
+.pp-contact-form .pp-error input[type=email] {
+	border-color: #DD4420;
+}
+.pp-contact-form .pp-error .pp-contact-error {
+	display: inline-block;
+}
+.pp-contact-form .pp-send-error,
+.pp-contact-form .pp-success,
+.pp-contact-form .pp-success-none,
+.pp-contact-form .pp-success-msg {
+	position: relative;
+	top: 5px;
+}
+.pp-contact-form .pp-success,
+.pp-contact-form .pp-success-none,
+.pp-contact-form .pp-success-msg {
+	color: #29BB41;
+}
+.pp-contact-form .pp-send-error {
+	color: #DD6420;
+}
+.pp-disabled {
+	opacity: 0.5;
+	pointer-events: none;
+}
+
+.pp-contact-form .fl-button-wrap,
+.pp-contact-form .pp-button-wrap {
+	clear: both;
+}
+
+.pp-contact-form.pp-form-inline .pp-input-group {
+	float: left;
+}
+
+.pp-contact-form.pp-form-inline .pp-input-group.pp-message {
+	width: 100%;
+	float: none;
+	clear: both;
+}
+
+.pp-contact-form.pp-form-stacked-inline .pp-contact-form-fields-left {
+	width: 50%;
+	float: left;
+	padding-right: 20px;
+}
+
+.pp-contact-form.pp-form-stacked-inline .pp-contact-form-fields-right {
+	width: 50%;
+	float: right;
+}
+
+.pp-contact-form.pp-form-stacked-inline .fl-button-wrap {
+	margin-top: 15px;
+}
+
+@media only screen and (min-width: 768px) {
+	.pp-contact-form.pp-form-stacked-inline .pp-contact-form-fields-right .pp-input-group:last-child {
+		margin-bottom: 0;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.pp-contact-form.pp-form-stacked-inline .pp-contact-form-fields-left,
+	.pp-contact-form.pp-form-stacked-inline .pp-contact-form-fields-right {
+		width: 100%;
+		float: none;
+		padding-right: 0;
+	}
+}

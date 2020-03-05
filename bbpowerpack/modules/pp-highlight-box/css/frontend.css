@@ -1,0 +1,8 @@
+/**
+ * This file should contain frontend styles that
+ * will be applied to all module instances.
+ */
+
+ .bb-box-input.input-small {
+     width: 46px !important;
+ }

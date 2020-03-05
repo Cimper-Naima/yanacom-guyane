@@ -1,0 +1,25 @@
+.fl-builder-pp-custom-grid-settings #fl-field-preset select {
+    width: 100% !important;
+}
+.fl-builder-pp-custom-grid-settings #fl-field-preset ~ .fl-field .fl-field-label label {
+    display: none;
+}
+#fl-field-original_html textarea,
+#fl-field-original_css textarea {
+    display: none;
+}
+#fl-field-restore .fl-field-control-wrapper {
+    text-align: right !important;
+}
+tr#fl-field-original_html th,
+tr#fl-field-original_html td,
+tr#fl-field-original_css th,
+tr#fl-field-original_css td {
+    padding: 0 10px !important;
+    text-align: right !important;
+}
+.pp-custom-grid-reset-html,
+.pp-custom-grid-reset-css {
+    color: #F44336 !important;
+    text-decoration: underline !important;
+}

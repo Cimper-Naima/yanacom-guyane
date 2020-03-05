@@ -1,0 +1,128 @@
+/**
+ * This file should contain frontend styles that
+ * will be applied to all module instances.
+ */
+.pp-modal-wrap {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    overflow-y: auto;
+    z-index: 100001;
+}
+.pp-modal-overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+}
+.pp-modal {
+    display: block;
+    position: relative;
+    margin: auto auto;
+    opacity: 1;
+}
+.pp-modal-container {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    overflow: auto;
+    opacity: 0;
+}
+.pp-modal.layout-fullscreen {
+    max-width: 100%;
+    height: auto;
+    min-height: 100%;
+    margin: 0;
+}
+.pp-modal .pp-modal-body {
+    overflow: hidden;
+}
+.pp-modal .pp-modal-header {
+    display: table;
+    width: 100%;
+}
+.pp-modal .pp-modal-title {
+    margin: 0;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.pp-modal-trigger {
+    display: inline-block;
+    text-decoration: none;
+    text-shadow: none;
+}
+.pp-modal-trigger .pp-button-icon {
+    height: auto;
+    margin-right: 8px;
+    vertical-align: middle;
+    width: auto;
+}
+.pp-modal-trigger .pp-button-icon-after {
+    margin-left: 8px;
+    margin-right: 0;
+}
+.pp-modal-trigger .pp-modal-trigger-text {
+    vertical-align: middle;
+}
+.pp-modal-close {
+    position: relative;
+    right: 10px;
+    line-height: 0;
+    cursor: pointer;
+    display: table-cell;
+    vertical-align: middle;
+    top: 0;
+    padding: 5px;
+}
+.pp-modal-close.box-top-right-out {
+    position: absolute;
+    right: -40px;
+}
+.pp-modal .pp-modal-close.box-top-left-out {
+    position: absolute;
+    left: -40px;
+    right: 0;
+}
+.pp-modal-close.win-top-right {
+    position: fixed;
+}
+.pp-modal-close.win-top-left {
+    position: fixed;
+    right: 0;
+}
+.pp-modal-close .bar-wrap {
+    display: inline-block;
+    position: relative;
+}
+.pp-modal-close .bar-wrap span {
+    position: absolute;
+    border-radius: 0;
+    width: 100%;
+    top: 49.5%;
+    left: 0px;
+}
+.pp-modal-close .bar-wrap .bar-1 {
+    -webkit-transform: rotate(225deg);
+    -moz-transform: rotate(225deg);
+    transform: rotate(225deg);
+}
+.pp-modal-close .bar-wrap .bar-2 {
+    -webkit-transform: rotate(-225deg);
+    -moz-transform: rotate(-225deg);
+    transform: rotate(-225deg);
+}
+.pp-modal-wrap .modal-visible {
+    opacity: 1;
+}
+.pp-modal .pp-modal-content .fl-row-content-wrap,
+.pp-modal .pp-modal-content .fl-builder-module-template {
+    padding: 0;
+}
+.fl-module-pp-modal-box {
+    z-index: 2 !important;
+}

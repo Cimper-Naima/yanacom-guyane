@@ -1,0 +1,12 @@
+.pp-login-form .pp-field-group {
+	margin-bottom: 10px;
+}
+.pp-login-form .pp-field-group > label {
+	display: block;
+}
+.pp-login-form .pp-field-group a {
+	cursor: pointer;
+}
+.pp-login-form .pp-field-group .pp-login-form--input {
+	width: 100%;
+}

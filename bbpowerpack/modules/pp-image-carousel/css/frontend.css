@@ -1,0 +1,241 @@
+div.mfp-wrap .mfp-close {
+	opacity: 1;
+    background-color: rgba(0,0,0,0.8) !important;
+    padding: 1px 7px !important;
+    height: 30px;
+    width: 30px;
+    border-radius: 0;
+    line-height: 1 !important;
+    font-family: inherit !important;
+    font-weight: bold !important;
+	font-size: 16px;
+    text-align: center !important;
+    top: 0 !important;
+    right: 0 !important;
+}
+
+.admin-bar div.mfp-wrap .mfp-close,
+.admin-bar div.mfp-wrap .mfp-close:active,
+.admin-bar div.mfp-wrap .mfp-close:hover,
+.admin-bar div.mfp-wrap .mfp-close:focus {
+    top: 0 !important;
+}
+
+div.mfp-wrap .mfp-close:hover,
+div.mfp-wrap .mfp-close:focus {
+	background-color: #000 !important;
+}
+
+div.mfp-wrap .mfp-bottom-bar {
+    margin-top: 10px;
+}
+
+.compat-field-pp-custom-link .alignleft {
+    margin: 0;
+}
+
+.pp-image-carousel-wrapper {
+	position: relative;
+}
+
+.pp-image-carousel {
+    position: relative;
+    text-align: center;
+	height: 250px;
+    overflow: hidden;
+}
+
+.pp-image-carousel-item {
+    float: left;
+	text-align: center;
+	overflow: hidden;
+}
+
+.pp-image-carousel-content {
+    position: relative;
+    text-align: center;
+	overflow: hidden;
+}
+
+.pp-image-carousel.pp-image-carousel-slideshow {
+	height: 450px;
+}
+
+/* Overlay */
+.pp-image-overlay {
+	position: absolute;
+    top: 0;
+    left: 0;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    color: #fff;
+    background-color: hsla(206,7%,54%,.8);
+    -webkit-transition: opacity .5s,-webkit-transform .5s;
+    transition: opacity .5s,-webkit-transform .5s;
+    -o-transition: transform .5s,opacity .5s;
+    transition: transform .5s,opacity .5s;
+    transition: transform .5s,opacity .5s,-webkit-transform .5s;
+}
+
+.pp-image-carousel-item:not(:hover) .pp-image-overlay.from-bottom {
+    -webkit-transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    transform: translateY(100%);
+}
+
+.pp-image-carousel-item:not(:hover) .pp-image-overlay.from-top {
+    -webkit-transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    transform: translateY(-100%);
+}
+
+.pp-image-carousel-item:not(:hover) .pp-image-overlay.from-right {
+    -webkit-transform: translateX(100%);
+    -ms-transform: translateX(100%);
+    transform: translateX(100%);
+}
+
+.pp-image-carousel-item:not(:hover) .pp-image-overlay.from-left {
+    -webkit-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    transform: translateX(-100%);
+}
+
+.pp-image-carousel-item:not(:hover) .pp-image-overlay.framed {
+    opacity: 0;
+}
+
+.pp-image-carousel-item .pp-image-overlay.fade {
+    opacity: 0;
+}
+
+.pp-image-carousel-item:hover .pp-image-overlay.fade {
+    opacity: 1;
+}
+
+.pp-image-carousel-item:not(:hover) .pp-image-overlay.zoom-in {
+    -webkit-transform: scale(.5);
+    -ms-transform: scale(.5);
+    transform: scale(.5);
+    opacity: 0;
+}
+
+.pp-image-carousel .pp-carousel-image-container,
+.pp-image-carousel-thumbs .pp-image-carousel-thumb {
+	background: no-repeat 50%;
+    background-size: cover;
+    height: 100%;
+    position: relative;
+}
+
+/*** Image Carousel **/
+.pp-image-carousel .swiper-pagination-bullets {
+    cursor: default;
+}
+.pp-image-carousel.pp-carousel-navigation-outside .swiper-pagination {
+    bottom: 0;
+}
+
+.pp-image-carousel .swiper-pagination-clickable .swiper-pagination-bullet {
+    cursor: pointer;
+}
+
+.pp-image-carousel.swiper-container-horizontal>.swiper-pagination-progress {
+    width: 100%;
+    height: 4px;
+    left: 0;
+    top: 0;
+    background: rgba(0,0,0,.25);
+    position: absolute;
+}
+
+.pp-image-carousel .swiper-pagination-progress .swiper-pagination-progressbar {
+    background: #000;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+    -webkit-transform-origin: left top;
+    -ms-transform-origin: left top;
+    transform-origin: left top;
+}
+
+.pp-image-carousel .pp-swiper-button {
+	background-image: none;
+	width: auto;
+	height: auto;
+	line-height: 1;
+	position: absolute;
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    z-index: 1;
+    cursor: pointer;
+    font-size: 25px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.pp-image-carousel.pp-carousel-navigation-outside .pp-swiper-button {
+	top: calc(50% - 30px / 2);
+}
+.pp-image-carousel .pp-swiper-button-prev {
+	left: 10px;
+}
+.pp-image-carousel .pp-swiper-button-next {
+	right: 10px;
+}
+
+.pp-thumbnails-swiper .pp-image-carousel-thumb {
+	background: no-repeat center;
+    background-size: cover;
+    height: 100%;
+	position: relative;
+	cursor: pointer;
+}
+
+.pp-thumbs-ratio-11 .pp-image-carousel-thumb {
+	padding-bottom: 100%;
+}
+
+.pp-thumbs-ratio-43 .pp-image-carousel-thumb {
+    padding-bottom: 75%;
+}
+
+.pp-thumbs-ratio-169 .pp-image-carousel-thumb {
+    padding-bottom: 56.35%;
+}
+
+.pp-thumbs-ratio-219 .pp-image-carousel-thumb {
+    padding-bottom: 42.8571%
+}
+
+.pp-image-overlay .pp-overlay-icon {
+    display: inline-block;
+}
+
+.pp-image-overlay .pp-overlay-icon span {
+    display: block;
+    line-height: 1;
+}

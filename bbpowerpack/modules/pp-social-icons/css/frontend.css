@@ -1,0 +1,24 @@
+.pp-social-icons .pp-social-icon {
+	display: inline-block;
+	line-height: 0;
+}
+
+.pp-social-icons .pp-social-icon.pp-social-icon-vertical {
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+/* Left */
+.pp-social-icons-left {
+	text-align: left;
+}
+
+/* Center */
+.pp-social-icons-center {
+	text-align: center;
+}
+
+/* Right */
+.pp-social-icons-right {
+	text-align: right;
+}

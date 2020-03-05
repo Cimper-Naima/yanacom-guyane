@@ -1,0 +1,27 @@
+/**
+ * This file should contain admin styles that
+ * will be applied to the module settings forms.
+ */
+.input-small {
+    width: 46px !important;
+}
+.bb-powerpack input.modal-trigger-class {
+    width: 100% !important;
+    border: 0px !important;
+}
+.fl-lightbox .pp-modal-node-id {
+	font-weight: bold;
+}
+.fl-builder-lightbox .fl-builder-settings-fields input.pp-modal-hide-js,
+.fl-builder-lightbox .fl-builder-settings-fields input.pp-modal-hide-js:focus {
+	background: none !important;
+    box-shadow: none !important;
+    border: none !important;
+    padding: 0 !important;
+    height: auto !important;
+    min-width: 220px !important;
+    font-weight: bold;
+}
+.fl-builder-pp-modal-box-settings .fl-builder-settings-tab-description {
+	user-select: text !important;
+}

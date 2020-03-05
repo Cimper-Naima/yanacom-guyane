@@ -1,0 +1,14 @@
+/* Post Feed */
+.pp-post-feed-post.pp-post-feed-image-beside {
+	max-width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.pp-post-feed-image-beside .pp-post-feed-image,
+.pp-post-feed-image-beside .pp-post-feed-image img {
+	float: none;
+	width: 100% !important;
+}
+.pp-post-feed-image-beside.pp-post-feed-has-image .pp-post-feed-content {
+	margin-left: 0;
+}

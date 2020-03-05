@@ -1,0 +1,7 @@
+/**
+ * This file should contain admin styles that
+ * will be applied to the module settings forms.
+ */
+.input-small {
+    width: 46px !important;
+}

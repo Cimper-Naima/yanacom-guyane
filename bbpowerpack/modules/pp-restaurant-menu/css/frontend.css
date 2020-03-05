@@ -1,0 +1,82 @@
+.pp-restaurant-menu-item-wrap{
+ 	width: 100%;
+ }
+.pp-restaurant-menu-item-wrap-in{
+ 	text-align: center;
+ }
+ .pp-restaurant-menu-item-right{
+ 	width: 20%;
+ 	float: right;
+ 	text-align: right;
+ }
+ .pp-restaurant-menu-item-left{
+ 	width: 80%;
+ 	float: left;
+ 	text-align: left;
+ }
+.pp-restaurant-menu-item{
+	padding-bottom: 10px;
+    padding-top: 10px;
+}
+ .pp-restaurant-menu-item-wrap a{
+ 	text-decoration: none;
+ }
+.pp-restaurant-menu-item-wrap img{
+ 	width: 100%;
+ }
+.pp-restaurant-menu-item-wrap-in .pp-restaurant-menu-item{
+	margin-bottom: 2%;
+}
+.pp-restaurant-menu-item-inline .pp-restaurant-menu-item-images{
+	float: left;
+}
+.pp-restaurant-menu-item-inline .pp-restaurant-menu-item-inline-right-content{
+	float: left;
+}
+.pp-restaurant-menu-item-images img{
+	display: block;
+	margin-bottom: 0px;
+}
+
+.pp-restaurant-menu-item-inline .pp-restaurant-menu-item-price{
+	float: right;
+	text-align: right;
+    padding: 0px 10px 0px 0px;
+}
+.pp-restaurant-menu-item .pp-restaurant-menu-item-price{
+	padding: 0px 0px 10px;
+}
+.pp-menu-item-unit {
+    display: block;
+    font-size: 13px;
+    vertical-align: top;
+}
+.pp-restaurant-menu-item-inline{
+	float: left;
+	margin-bottom: 2%;
+}
+.pp-restaurant-menu-item-wrap-in h2{
+    margin-top: 0 !important;
+	margin-bottom: 5px !important;
+}
+.pp-restaurant-menu-item-inline-right-content{
+	text-align: left;
+	padding-left: 10px;
+}
+.pp-restaurant-menu-item-inline .pp-restaurant-menu-item-images{
+	padding-right: 10px;
+}
+.pp-restaurant-menu-item .pp-restaurant-menu-item-left{
+	padding-left: 10px;
+}
+.pp-restaurant-menu-item .pp-restaurant-menu-item-right{
+	padding-right: 10px;
+}
+.pp-restaurant-menu-item-inline-right-content h2{
+	line-height: 1.2;
+}
+.pp-restaurant-menu-item-inline-right-content
+
+.pp-restaurant-menu-item h2{
+	margin-top: 10px;
+}

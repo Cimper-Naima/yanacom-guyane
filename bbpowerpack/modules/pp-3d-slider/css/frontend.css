@@ -1,0 +1,100 @@
+.pp-3d-slider {
+	width: 100%;
+	height: 450px;
+	position: relative;
+}
+.pp-slider-wrapper {
+	width: 481px;
+	height: 316px;
+	margin: 0 auto;
+	position: relative;
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	-o-transform-style: preserve-3d;
+	-ms-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	-webkit-perspective: 1000px;
+	-moz-perspective: 1000px;
+	-o-perspective: 1000px;
+	-ms-perspective: 1000px;
+	perspective: 1000px;
+}
+.pp-slider-wrapper .pp-slide {
+	width: 482px;
+	height: 316px;
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	outline: 0;
+	text-decoration: none;
+}
+.pp-slider-wrapper .pp-slide.pp-slider-transition{
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+.pp-slider-wrapper .pp-slide .pp-slider-img {
+	display: block;
+	box-shadow: 0px 10px 20px rgba(0,0,0,0.3);
+}
+.pp-slider-wrapper .pp-slide .pp-slider-img-caption {
+	font-style: italic;
+	text-align: center;
+	line-height: 50px;
+	text-shadow: 1px 1px 1px rgba(255,255,255,0.5);
+	color: #333;
+	font-size: 16px;
+	width: 100%;
+	display: none;
+}
+.pp-slider-wrapper .pp-slide.pp-slider-center .pp-slider-img-caption {
+	display: block;
+}
+.pp-3d-slider .pp-slider-nav {
+	position: absolute;
+	z-index: 1000;
+	bottom: 30px;
+	left: 50%;
+	text-align: center;
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	transform: translateX(-50%);
+}
+.pp-3d-slider .pp-slider-nav .fa {
+	float: none;
+    font-size: 30px;
+	cursor: pointer;
+	width: 40px;
+	height: 40px;
+	padding: 3px;
+}
+.pp-3d-slider .pp-slider-nav .fa,
+.pp-3d-slider .pp-slider-nav .fa:hover {
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.pp-3d-slider .pp-slider-nav .pp-slider-prev {
+	margin-right: 5px;
+}
+.pp-3d-slider .pp-slider-nav .pp-slider-next {
+	margin-left: 5px;
+}
+
+@media only screen and (max-width: 800px) {
+	.pp-3d-slider .pp-slider-wrapper {
+	    width: auto;
+	    max-width: 420px;
+	}
+	.pp-3d-slider .pp-slider-wrapper .pp-slide {
+		width: auto;
+	    height: auto;
+	}
+}

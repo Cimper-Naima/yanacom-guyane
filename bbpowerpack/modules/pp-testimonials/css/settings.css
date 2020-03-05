@@ -1,0 +1,47 @@
+
+.fl-form-table #fl-field-testimonial_layout {
+    display: block;
+    width: 100%;
+}
+.fl-form-table #fl-field-testimonial_layout td {
+    display: block;
+    width: 100%;
+}
+.fl-form-table #fl-field-testimonial_layout th,
+.fl-form-table #fl-field-testimonial_layout td input {
+    display: none;
+}
+.fl-form-table #fl-field-testimonial_layout td label.selected {
+	outline: 2px solid #5b9dd9;
+}
+.pp-field-wrap {
+	display: inline-block;
+	width: 49%;
+}
+.pp-label.testimonial_layout {
+    background-position: center;
+    background-repeat: no-repeat;
+    display: block;
+    margin: 0 auto;
+    min-height: 150px;
+    cursor: pointer;
+    outline: 1px solid #eee;
+}
+.pp-label.testimonial_layout span {
+    display: none;
+}
+.fl-form-table #fl-field-testimonial_layout td .pp-option-1 {
+    background-image: url(../images/layout-1.jpg);
+}
+.fl-form-table #fl-field-testimonial_layout td .pp-option-2 {
+    background-image: url(../images/layout-2.jpg);
+}
+.fl-form-table #fl-field-testimonial_layout td .pp-option-3 {
+    background-image: url(../images/layout-3.jpg);
+}
+.fl-form-table #fl-field-testimonial_layout td .pp-option-4 {
+    background-image: url(../images/layout-4.jpg);
+}
+.fl-form-table #fl-field-testimonial_layout td .pp-option-5 {
+    background-image: url(../images/layout-5.jpg);
+}

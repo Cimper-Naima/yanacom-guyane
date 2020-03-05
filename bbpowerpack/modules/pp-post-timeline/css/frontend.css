@@ -1,0 +1,259 @@
+/* Clearfix */
+.clearfix:before,
+.clearfix:after {
+	content: " ";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+.pp-post-timeline .pp-is-hidden {
+	opacity: 0;
+	-webkit-transition: opacity .6s linear, margin .6s ease;
+	-moz-transition: opacity .6s linear, margin .6s ease;
+	-ms-transition: opacity .6s linear, margin .6s ease;
+	transition: opacity .6s linear, margin .6s ease;
+}
+.pp-post-timeline .slide-item .pp-is-hidden {
+	opacity: 1;
+}
+.pp-post-timeline .pp-fade {
+	opacity: 1;
+	-webkit-transition: opacity .6s linear, margin .6s ease;
+	-moz-transition: opacity .6s linear, margin .6s ease;
+	-ms-transition: opacity .6s linear, margin .6s ease;
+	transition: opacity .6s linear, margin .6s ease;
+}
+
+.pp-post-timeline .pp-post-timeline-content-wrapper {
+	margin: 0 auto;
+	position: relative;
+	width: 100%;
+	-webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+.pp-post-timeline .pp-post-timeline-content-wrapper:before {
+	border-width: 0;
+	content: '';
+	display: block;
+	height: 100%;
+	left: 50%;
+	position: absolute;
+	top: 0;
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	transform: translateX(-50%);
+}
+.pp-post-timeline .pp-post-timeline-content-wrapper:after {
+	border: 5px solid;
+	border-radius: 100%;
+	bottom: 0;
+    content: '';
+	left: 50%;
+    position: absolute;
+    width: 5px;
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	transform: translateX(-50%);
+}
+
+.pp-post-timeline .pp-post-timeline-content-wrapper .pp-post-timeline-item {
+	margin-bottom: 50px;
+	position: relative;
+}
+.pp-post-timeline-content-wrapper .pp-post-timeline-item .pp-post-timeline-content .pp-post-timeline-title {
+	margin-top: 0;
+	margin-bottom: 5px;
+}
+.pp-post-timeline .pp-post-timeline-content-wrapper .pp-post-timeline-item .pp-post-timeline-icon-wrapper {
+	display: inline-block;
+	left: 49.91%;
+	overflow: hidden;
+	position: absolute;
+	text-align: center;
+	top: 0;
+	width: 10%;
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	transform: translateX(-50%);
+}
+
+.pp-post-timeline.alternate .pp-post-timeline-content-wrapper .pp-post-timeline-item:nth-of-type(2n) .pp-post-timeline-icon-wrapper,
+.pp-post-timeline.right .pp-post-timeline-content-wrapper .pp-post-timeline-item .pp-post-timeline-icon-wrapper {
+	left: 50.1%;
+}
+
+.pp-post-timeline .pp-post-timeline-content-wrapper .pp-post-timeline-item .pp-post-timeline-icon {
+	display: table;
+	line-height: 0;
+	margin: 0 auto;
+}
+.pp-post-timeline.vertical .pp-post-timeline-content-wrapper .pp-post-timeline-item .pp-separator-arrow {
+	width: 20px;
+	height: 20px;
+	left: -10px;
+	position: absolute;
+	top: 50%;
+	transform: rotate(135deg);
+	background: #eee;
+}
+.pp-post-timeline.vertical .pp-post-timeline-content-wrapper .pp-post-timeline-item:nth-of-type(2n) .pp-separator-arrow {
+	border-left: none;
+	left: auto;
+	right: -10px;
+}
+
+.pp-post-timeline.left .pp-post-timeline-content-wrapper .pp-post-timeline-item:nth-of-type(2n) .pp-separator-arrow {
+	left: -10px;
+	right: auto;
+}
+
+.pp-post-timeline.right .pp-post-timeline-content-wrapper .pp-post-timeline-item .pp-separator-arrow  {
+	left: auto;
+	right: -10px;
+}
+
+.pp-post-timeline.alternate .pp-post-timeline-content-wrapper .pp-post-timeline-item:nth-of-type(2n) .pp-separator-arrow {
+	border-right: 10px solid transparent;
+}
+
+html:not(.fl-builder-edit) .pp-post-timeline .pp-post-timeline-content-wrapper .pp-post-timeline-item .pp-separator-arrow,
+html:not(.fl-builder-edit).pp-post-timeline .pp-post-timeline-content-wrapper .pp-post-timeline-item .pp-post-timeline-content {
+	margin-left: -15px;
+}
+html:not(.fl-builder-edit) .pp-post-timeline .pp-post-timeline-content-wrapper .pp-post-timeline-item:nth-of-type(2n) .pp-separator-arrow,
+html:not(.fl-builder-edit) .pp-post-timeline .pp-post-timeline-content-wrapper .pp-post-timeline-item:nth-of-type(2n) .pp-post-timeline-content {
+	margin-left: 0;
+	margin-right: -15px;
+}
+html:not(.fl-builder-edit) .pp-post-timeline .pp-post-timeline-content-wrapper .pp-post-timeline-item .pp-separator-arrow.pp-fade,
+html:not(.fl-builder-edit) .pp-post-timeline .pp-post-timeline-content-wrapper .pp-post-timeline-item .pp-post-timeline-content.pp-fade {
+	margin-left: 0;
+}
+html:not(.fl-builder-edit) .pp-post-timeline .pp-post-timeline-content-wrapper .pp-post-timeline-item:nth-of-type(2n) .pp-separator-arrow.pp-fade,
+html:not(.fl-builder-edit) .pp-post-timeline .pp-post-timeline-content-wrapper .pp-post-timeline-item:nth-of-type(2n) .pp-post-timeline-content.pp-fade {
+	margin-right: 0;
+}
+
+.pp-post-timeline .pp-post-timeline-content-wrapper .pp-post-timeline-item .pp-post-timeline-icon .dashicons,
+.pp-post-timeline .pp-post-timeline-content-wrapper .pp-post-timeline-item .pp-post-timeline-icon .dashicons-before:before {
+	font-size: inherit;
+	height: auto;
+	width: auto;
+}
+.pp-post-timeline .pp-post-timeline-content-wrapper .pp-post-timeline-item .pp-post-timeline-content {
+	overflow: hidden;
+	width: 45%;
+	z-index: 10;
+}
+.pp-post-timeline .pp-post-timeline-content-wrapper .pp-post-timeline-item:nth-of-type(2n) .pp-post-timeline-content {
+	float: right;
+}
+.pp-post-timeline.left .pp-post-timeline-content-wrapper .pp-post-timeline-item:nth-of-type(2n) .pp-post-timeline-content {
+	float: none;
+}
+.pp-post-timeline.right .pp-post-timeline-content-wrapper .pp-post-timeline-item .pp-post-timeline-content {
+	float: right;
+}
+.pp-post-timeline .pp-post-timeline-content-wrapper .pp-post-timeline-item .pp-post-timeline-content .pp-post-timeline-title-wrapper p {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.pp-post-timeline .pp-post-timeline-content-wrapper .pp-post-timeline-item .pp-post-timeline-content p {
+	margin-bottom: 10px;
+}
+
+.pp-post-timeline .pp-post-timeline-content-wrapper .pp-post-timeline-item .pp-post-timeline-content .pp-post-timeline-button {
+	display: inline-block;
+	text-decoration: none;
+}
+
+/* Horizontal Timeline */
+.pp-post-timeline-item.slide-item .pp-post-timeline-content {
+	float: none !important;
+	width: auto !important;
+}
+
+.pp-post-timeline.horizontal .pp-post-timeline-content-wrapper:before {
+	width: 98%;
+	border: 0;
+	border-top: 1px solid #333;
+	margin: 0 auto 30px;
+	top: -40px;
+}
+
+.pp-post-timeline.horizontal .pp-post-timeline-content-wrapper:after {
+	display: none;
+}
+
+.pp-post-timeline.horizontal .pp-post-timeline-slide-navigation .pp-post-timeline-icon {
+	display: inline-block;
+	line-height: 0;
+}
+
+.pp-post-timeline.horizontal .pp-post-timeline-content-wrapper .pp-post-timeline-item .pp-post-timeline-icon-wrapper {
+	margin-top: -70px;
+	overflow: visible;
+}
+
+.pp-post-timeline-item.slide-item {
+	padding: 0 10px;
+	margin-bottom: 30px !important;
+	padding-top: 20px;
+	display: flex;
+}
+
+.pp-post-timeline .pp-post-timeline-slide-navigation {
+	padding-left: 0;
+	position: relative;
+	z-index: 1;
+	margin: 0 10px;
+}
+
+.pp-post-timeline .pp-post-timeline-slide-navigation .pp-post-timeline-icon-wrapper {
+	position: relative;
+	text-align: center;
+	min-height: 60px;
+	cursor: pointer;
+}
+
+.pp-post-timeline .pp-post-timeline-slide-navigation .pp-post-timeline-icon-wrapper:focus {
+	outline: 0;
+}
+
+.pp-post-timeline.horizontal .pp-post-timeline-content-wrapper .pp-post-timeline-item .pp-separator-arrow {
+	position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 48.5%;
+    top: 10px;
+    transform: rotate(135deg);
+	z-index: 20;
+	border: 0;
+}
+
+.pp-post-timeline.horizontal .slick-prev,
+.pp-post-timeline.horizontal .slick-next {
+	top: 25px;
+	position: absolute;
+}
+
+.pp-post-timeline-slide-navigation span.slick-arrow,
+.pp-post-timeline-slide-navigation span.slick-arrow:hover {
+	-webkit-transition: all 0.2s ease-in;
+	-moz-transition: all 0.2s ease-in;
+	-ms-transition: all 0.2s ease-in;
+	-o-transition: all 0.2s ease-in;
+	transition: all 0.2s ease-in;
+}
+
+.pp-post-timeline .slick-dots li button:before {
+	opacity: 1;
+}

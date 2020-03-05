@@ -1,0 +1,47 @@
+/* Content tab */
+.fl-builder-settings.pp-style-custom #fl-field-show_title,
+.fl-builder-settings.pp-style-custom #fl-field-show_content,
+.fl-builder-settings.pp-style-custom #fl-field-content_type,
+.fl-builder-settings.pp-style-custom #fl-field-content_length,
+.fl-builder-settings.pp-style-custom #fl-field-more_link_type,
+.fl-builder-settings.pp-style-custom #fl-field-more_link_text,
+.fl-builder-settings.pp-style-custom #fl-builder-settings-section-image-settings,
+.fl-builder-settings.pp-style-custom #fl-builder-settings-section-meta-settings {
+	display: none !important;
+}
+.fl-builder-settings.pp-cg-module-style-9 #fl-field-match_height,
+.fl-builder-settings.pp-cg-module-style-9 #fl-field-show_content,
+.fl-builder-settings.pp-cg-module-style-9 #fl-field-content_type,
+.fl-builder-settings.pp-cg-module-style-9 #fl-field-content_length,
+.fl-builder-settings.pp-cg-module-style-9 #fl-field-more_link_type,
+.fl-builder-settings.pp-cg-module-style-9 #fl-field-more_link_text {
+	display: none !important;
+}
+
+/* Style tab */
+.fl-builder-settings.pp-style-custom #fl-field-post_content_padding,
+.fl-builder-settings.pp-style-custom #fl-builder-settings-section-divider_style,
+.fl-builder-settings.pp-style-custom #fl-builder-settings-section-post_category_style,
+.fl-builder-settings.pp-style-custom #fl-builder-settings-section-post_title_style,
+.fl-builder-settings.pp-style-custom #fl-builder-settings-section-post_date_style,
+.fl-builder-settings.pp-style-custom #fl-builder-settings-section-product_info_style,
+.fl-builder-settings.pp-style-custom #fl-builder-settings-section-button_colors {
+	display: none !important;
+}
+
+/* Typography tab */
+.fl-builder-settings.pp-style-custom #fl-builder-settings-section-title_typography,
+.fl-builder-settings.pp-style-custom #fl-builder-settings-section-content_typography,
+.fl-builder-settings.pp-style-custom #fl-builder-settings-section-post_meta_typography,
+.fl-builder-settings.pp-style-custom #fl-builder-settings-section-events_calendar_style,
+.fl-builder-settings.pp-style-custom #fl-builder-settings-section-events_calendar_style {
+	display: none !important;
+}
+.fl-builder-settings.pp-cg-module-style-9 #fl-builder-settings-section-content_typography {
+	display: none !important;
+}
+
+/* custom content field connection */
+.fl-field-connections-menu[data-field="fl-field-custom_content"] .fl-field-connections-property-connect {
+	display: none !important;
+}

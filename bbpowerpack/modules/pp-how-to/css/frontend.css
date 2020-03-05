@@ -1,0 +1,12 @@
+img.pp-how-to-image {
+    width: 100%;
+}
+.pp-how-to-step {
+    display: flex;
+}
+.pp-how-to-step-content {
+    width: 70%;
+}
+.pp-how-to-step-image {
+    width: 30%;
+}

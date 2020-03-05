@@ -1,0 +1,81 @@
+.pp-coupon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+	align-items: center;
+	overflow: hidden;
+}
+.pp-coupon a,
+.pp-coupon a:hover {
+	text-decoration: none;
+	cursor: pointer;
+}
+.pp-coupon-image-wrapper,
+.pp-coupon-image-wrapper img,
+.pp-coupon-content-wrapper {
+	width: 100%;
+	height: auto;
+}
+.pp-coupon-image-wrapper {
+    position: relative;
+}
+.pp-coupon-image-wrapper .pp-coupon-link {
+	display: block;
+}
+.pp-coupon-discount {
+    position: absolute;
+	top: 0;
+	transition: all 0.3s ease-in-out;
+}
+.pp-coupon-code {
+    position: absolute;
+    bottom: 0;
+	cursor: pointer;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	transition: all 0.3s ease-in-out;
+}
+.pp-coupon-code-text {
+	display: flex;
+	align-items: center;
+}
+.pp-coupon-code-text-wrap {
+    position: relative;
+    float: right;
+}
+.pp-copied .pp-coupon-code-text-wrap {
+	display: flex;
+	align-items: center;
+}
+.pp-coupon-copy-text {
+    padding-left: 10px;
+}
+.pp-coupon-code.pp-copied.pp-coupon-style-reveal .pp-coupon-code-text {
+	border-right: 2px dotted #fff;
+    padding-right: 10px;
+}
+.pp-coupon-code.pp-coupon-style-copy .pp-coupon-code-text {
+	border-right: 2px dotted #fff;
+    padding-right: 10px;
+}
+.pp-coupon-code-text-wrap.pp-unreavel {
+    padding-left: 5px !important;
+}
+.pp-coupon-reveal-wrap {
+    position: relative;
+    float: left;
+	z-index: 2;
+}
+.pp-coupon-title {
+	margin-top: 0;
+}
+.pp-coupon-link-button {
+	transition: all 0.3s ease-in-out;
+}
+.pp-coupon-link-text {
+	transition: all 0.3s ease-in-out;
+}
+.pp-coupon-separator {
+	margin-top: 0px;
+}

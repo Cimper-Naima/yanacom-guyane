@@ -1,0 +1,58 @@
+<?php $enabled_modules = self::get_enabled_modules(); ?>
+
+<table class="form-table">
+    <tbody>
+        <tr valign="top">
+            <th scope="row" valign="top">
+                <?php esc_html_e('Enable/Disable Modules', 'bb-powerpack'); ?>
+            </th>
+            <td>
+                <p>
+                    <label>
+                        <?php
+                            $modules_all_checked = self::get_option( 'bb_powerpack_modules_all' );
+                            if ( $modules_all_checked == false ) {
+                                self::update_option( 'bb_powerpack_modules_all', 1 );
+                            }
+                        ?>
+                        <input type="checkbox" name="bb_powerpack_modules_all" value="1" <?php echo ( $modules_all_checked == 1 || $modules_all_checked == false ) ? 'checked="checked"' : ''; ?> />
+                        <strong><?php esc_html_e('All', 'bb-powerpack'); ?></strong>
+                    </label>
+                </p>
+                <?php foreach ( pp_modules() as $slug => $title ) : ?>
+                <p>
+                    <label>
+                        <input type="checkbox" name="bb_powerpack_modules[]" value="<?php echo $slug; ?>" <?php echo in_array( $slug, $enabled_modules ) ? 'checked="checked"' : ''; ?> />
+                        <?php echo $title; ?>
+                    </label>
+                </p>
+                <?php endforeach; ?>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<script>
+jQuery('[name="bb_powerpack_modules[]"]').each(function() {
+    if ( ! jQuery(this).is(':checked') ) {
+        jQuery('[name="bb_powerpack_modules_all"]').removeAttr('checked');
+    }
+});
+jQuery('[name="bb_powerpack_modules[]"]').on('change', function () {
+    if ( ! jQuery(this).is(':checked') ) {
+        jQuery('[name="bb_powerpack_modules_all"]').removeAttr('checked');
+    }
+    if ( jQuery('[name="bb_powerpack_modules[]"]:not(:checked)').length === 0 ) {
+        jQuery('[name="bb_powerpack_modules_all"]').attr('checked', 'checked');
+    }
+});
+jQuery('[name="bb_powerpack_modules_all"]').on('change', function() {
+    if ( jQuery(this).is(':checked') ) {
+        jQuery('[name="bb_powerpack_modules[]"]').attr('checked', 'checked');
+    } else {
+        jQuery('[name="bb_powerpack_modules[]"]').removeAttr('checked');
+    }
+});
+</script>
+
+<?php submit_button(); ?>
+<?php wp_nonce_field('pp-modules', 'pp-modules-nonce'); ?>

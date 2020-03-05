@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve">
+<style type="text/css">
+	.ppst0{display:none;}
+	.ppst1{display:inline;}
+</style>
+<g id="guides">
+</g>
+<g id="Layer_2_1_" class="ppst0">
+	<rect x="-28" y="-28" class="ppst1" width="80" height="80"/>
+</g>
+<g>
+	<path d="M20.8,4.8V19L3.3,15.5l0-10.7H20.8 M22,3.5H2v13l20,4V3.5L22,3.5z"/>
+	<g>
+		<polygon points="18.8,7.9 5.3,7.9 5.3,9.2 18.8,9.2 		"/>
+		<polygon points="18.8,10.9 5.3,10.9 5.3,12.2 18.8,12.2 		"/>
+	</g>
+</g>
+</svg>

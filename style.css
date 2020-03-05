@@ -1,0 +1,93 @@
+html,
+body,
+header,
+.view {
+  height: 100%;
+}
+
+img{
+    height: 10em;
+    width: 10em;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: .1rem;
+    padding-left: .1rem;
+    text-transform: capitalize;
+}
+
+#liquide-gris-header{
+    background-image: url('img/liquide_gris.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    float: right;
+}
+#liquide-feuille-header{
+    background-image: url('img/liquide_feuille.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: relative;
+    float: right;
+}
+.row{
+    padding-top: 10em;
+}
+#apropos{
+    text-align: center;
+    padding-top: 5em;
+}
+#grenouille-blanc{
+    height: 20em;
+    width: 20em;
+    text-align: right;
+    padding-bottom: 10em;
+}
+/* *{
+    border: solid 1px;
+} */
+
+
+
+
+/* @media (max-width: 740px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 1000px;
+  }
+}
+@media (min-width: 800px) and (max-width: 850px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 600px;
+  }
+}
+
+.btn .fa {
+  margin-left: 3px;
+} */
+
+/* .top-nav-collapse {
+  background-color: #424f95 !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+  background: transparent !important;
+}
+
+@media (max-width: 991px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #424f95 !important;
+  }
+} */
+
+/* .btn-white {
+  color: black !important;
+}
+
+h6 {
+  line-height: 1.7;
+} */

@@ -1,0 +1,79 @@
+.pp-faq-item,
+.pp-faq-item .pp-faq-content {
+	overflow: hidden;
+}
+.pp-faq-button {
+	cursor: pointer;
+	display: table;
+}
+.pp-faq-button-label {
+	display: table-cell;
+	vertical-align: middle;
+	width: 100%;
+}
+.pp-faq-button-icon.pp-faq-icon-right {
+	display: table-cell;
+	padding-left: 15px;
+	vertical-align: middle;
+}
+.pp-faq-button-icon.pp-faq-icon-left {
+	display: table-cell;
+	padding-right: 15px;
+	vertical-align: middle;
+}
+.pp-faq-content {
+	display: none;
+}
+.pp-faq-item .pp-faq-button {
+	width: 100%;
+}
+.pp-faq-item .pp-faq-button,
+.pp-faq-item .pp-faq-button:hover {
+	transition: all 0.1s ease-in;
+	-webkit-transition: all 0.1s ease-in;
+	-moz-transition: all 0.1s ease-in;
+	-ms-transition: all 0.1s ease-in;
+	-o-transition: all 0.31ss ease-in;
+}
+
+/* Small */
+.pp-faq-small .pp-faq-button {
+	padding: 10px 15px;
+}
+.pp-faq-small .pp-faq-content {
+	padding: 0 30px 10px 15px;
+}
+
+/* Medium */
+.pp-faq-medium .pp-faq-button {
+	padding: 15px 20px;
+}
+.pp-faq-medium .pp-faq-button-label {
+	font-size: 20px;
+}
+.pp-faq-medium .pp-faq-content {
+	padding: 0 40px 15px 20px;
+}
+
+/* Large */
+.pp-faq-large .pp-faq-button {
+	padding: 20px 25px;
+}
+.pp-faq-large .pp-faq-button-label {
+	font-size: 26px;
+}
+.pp-faq-large .pp-faq-content {
+	padding: 0 50px 25px 25px;
+}
+
+.pp-faq-button-icon.pp-faq-close {
+	display: none;
+}
+
+.pp-faq-item.pp-faq-item-active .pp-faq-close {
+	display: table-cell;
+}
+
+.pp-faq-item.pp-faq-item-active .pp-faq-open {
+	display: none;
+}

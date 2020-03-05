@@ -1,0 +1,17 @@
+.pp-subscribe-form-inline .pp-form-field {
+	float: none;
+	margin: 0 0 15px;
+	padding-right: 0 !important;
+	width: 100% !important;
+}
+.pp-subscribe-form-inline.pp-subscribe-form-name-hide .pp-form-field {
+	width: 100%;
+}
+.pp-subscribe-form-inline .pp-form-button {
+	float: none;
+	width: 100% !important;
+}
+
+.pp-subscribe-form a.fl-button {
+	width: 100% !important;
+}

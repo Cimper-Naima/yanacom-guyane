@@ -1,0 +1,43 @@
+/**
+ * This file should contain frontend styles that
+ * will be applied to all module instances.
+ */
+
+.bb-cf-input.input-small {
+    width: 46px !important;
+}
+
+.pp-caldera-form-content {
+	position: relative;
+}
+
+.pp-caldera-form-content:before {
+	content: "";
+	display: block;
+	position: absolute;;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.pp-caldera-form-content .pp-form-title,
+.pp-caldera-form-content .pp-form-description {
+	position: relative;
+}
+
+.pp-caldera-form-content .caldera-grid .radio input[type=radio] {
+    margin-top: 3px;
+}
+
+.pp-caldera-form-content .cf-color-picker .input-group-addon {
+    display: inline-block;
+}
+
+.pp-caldera-form-content .cf-color-picker .input-group {
+    max-width: 140px;
+}
+
+.pp-caldera-form-content .cf-color-picker .input-group input {
+    width: 100px;
+}

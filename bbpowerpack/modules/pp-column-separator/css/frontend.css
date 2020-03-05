@@ -1,0 +1,75 @@
+/* Clearfix */
+.clearfix:before,
+.clearfix:after {
+	content: " ";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+.fl-builder-edit .pp-column-separator-wrap {
+	position: relative;
+}
+.pp-helper {
+	background: rgba(255, 255, 255, .9);
+	color: #000;
+	padding: 3px;
+}
+.fl-builder-edit .pp-side-triangle {
+	position: static;
+}
+.fl-builder-edit .pp-big-triangle-side {
+	position: static !important;
+	transform: rotate(0) !important;
+}
+
+.pp-column-separator-wrap {
+	height: 0;
+	left: 0;
+	position: absolute;
+	width: 100%;
+	z-index: 1;
+}
+.pp-column-separator {
+	height: 100%;
+	position: relative;
+	width: 100%;
+}
+.pp-column-separator svg {
+	height: auto;
+	position: absolute;
+	width: 100%;
+	z-index: 1;
+}
+.pp-column-separator .pp-side-triangle {
+	height: auto;
+	top: 0;
+	width: 100px;
+}
+.pp-column-separator .pp-zigzag:before,
+.pp-column-separator .pp-zigzag:after {
+	background-image: -webkit-gradient(linear, 0 0, 300% 100%, color-stop(0.25, #ffffff), color-stop(0.25, #ffffff));
+	background-image: linear-gradient(135deg, #ffffff 25%, #ffffff 25%), linear-gradient(225deg, #ffffff 25%, #ffffff 25%);
+	background-size: 50px 100%;
+	content: '';
+	display: block;
+	height: 100px;
+	left: 0;
+	pointer-events: none;
+	position: absolute;
+	right: 0;
+    z-index: 10;
+}
+.pp-column-separator-wrap.pp-big-side-separator {
+	bottom: 0;
+	height: 100%;
+	top: 0;
+	width: 1px;
+}
+.pp-column-separator .pp-big-triangle-side {
+	bottom: 0;
+	position: absolute;
+	top: 50%;
+}

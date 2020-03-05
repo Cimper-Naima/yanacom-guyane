@@ -1,0 +1,61 @@
+/* Clearfix */
+.clearfix:before,
+.clearfix:after {
+	content: " ";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+.pp-image-panels-wrap .pp-panel-link {
+	display: inline-block;
+	float: left;
+	text-decoration: none;
+	overflow: hidden;
+	-webkit-transition: width .3s cubic-bezier(0.39, 0.58, 0.57, 1);
+	-moz-transition: width .3s cubic-bezier(0.39, 0.58, 0.57, 1);
+	-o-transition: width .3s cubic-bezier(0.39, 0.58, 0.57, 1);
+	-ms-transition: width .3s cubic-bezier(0.39, 0.58, 0.57, 1);
+	transition: width .3s cubic-bezier(0.39, 0.58, 0.57, 1);
+	will-change: width;
+}
+.pp-image-panels-wrap .pp-image-panels-inner {
+	display: flex;
+	flex: 1 1 auto;
+}
+.pp-image-panels-wrap .pp-panel-title .pp-panel-link {
+	display: block;
+	float: none;
+}
+.pp-image-panels-wrap .pp-panel-item {
+	background-position: center;
+	background-size: cover;
+	display: inline-block;
+	float: left;
+	overflow: hidden;
+	position: relative;
+	-webkit-transition: width .3s cubic-bezier(0.39, 0.58, 0.57, 1);
+	-moz-transition: width .3s cubic-bezier(0.39, 0.58, 0.57, 1);
+	-o-transition: width .3s cubic-bezier(0.39, 0.58, 0.57, 1);
+	-ms-transition: width .3s cubic-bezier(0.39, 0.58, 0.57, 1);
+	transition: width .3s cubic-bezier(0.39, 0.58, 0.57, 1);
+	will-change: width;
+}
+.pp-image-panels-wrap .pp-panel-item .pp-panel-title {
+	bottom: 0;
+	position: absolute;
+	width: 100%;
+}
+.pp-image-panels-wrap .pp-panel-item .pp-panel-title h3 {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+@media only screen and (max-width: 768px) {
+	.pp-image-panels-wrap .pp-panel-link {
+		width: 100% !important;
+		text-align: center;
+	}
+}

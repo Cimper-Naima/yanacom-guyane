@@ -1,0 +1,133 @@
+/* .fl-module-pp-video .fl-module-content {
+	overflow: hidden;
+} */
+.fancybox-container .pp-video-container {
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.pp-aspect-ratio-219 .pp-fit-aspect-ratio {
+	padding-bottom: 42.8571%;
+}
+  
+.pp-aspect-ratio-169 .pp-fit-aspect-ratio {
+	padding-bottom: 56.25%;
+}
+  
+.pp-aspect-ratio-43 .pp-fit-aspect-ratio {
+	padding-bottom: 75%;
+}
+  
+.pp-aspect-ratio-32 .pp-fit-aspect-ratio {
+	padding-bottom: 66.6666%;
+}
+  
+.pp-aspect-ratio-11 .pp-fit-aspect-ratio {
+	padding-bottom: 100%;
+}
+  
+.pp-fit-aspect-ratio {
+	position: relative;
+	height: 0;
+	background: none;
+}
+.pp-fit-aspect-ratio iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	border: 0;
+	background-color: #000;
+}
+.pp-fit-aspect-ratio video {
+	width: 100%;
+}
+.pp-video-wrapper {
+	background: #000;
+	overflow: hidden;
+}
+.pp-video-wrapper video,
+.pp-video-wrapper iframe {
+    max-width: 100%;
+    width: 100%;
+    margin: 0;
+    line-height: 1;
+    border: none;
+}
+.pp-video-wrapper .pp-video-player {
+	-o-object-fit: cover;
+    object-fit: cover;
+}
+
+.pp-video-image-overlay {
+	text-align: center;
+	position: relative;
+}
+.pp-video-wrapper:not(.pp-video-has-lightbox) .pp-video-image-overlay {
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: 50%;
+}
+
+.pp-video-play-icon {
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+	transform: translateX(-50%) translateY(-50%);
+	display: inline-block;
+    line-height: 0;
+    padding: 20px;
+    border-radius: 100%;
+	background: #fff;
+	cursor: pointer;
+}
+.pp-video-play-icon svg {
+	width: 30px;
+    height: 30px;
+    transform: translateX(3px);
+}
+
+.pp-video-play-icon i {
+	font-size: 100px;
+    color: #fff;
+    opacity: 0.8;
+    text-shadow: 1px 0 6px rgba(0, 0, 0, 0.3);
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+.pp-video-wrapper .pp-screen-only {
+	position: absolute;
+    top: -10000em;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+@media only screen and (min-width: 1025px) {
+	.fancybox-container .pp-video-container {
+		width: 75%;
+	}
+}
+@media only screen and (max-width: 1024px) {
+	.fancybox-container .pp-video-container {
+		width: 100%;
+	}
+}

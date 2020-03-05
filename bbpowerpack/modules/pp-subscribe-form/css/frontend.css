@@ -1,0 +1,69 @@
+.pp-clearfix:after {
+	content: "";
+	display: block;
+	visibility: hidden;
+	clear: both;
+	height: 0;
+}
+.pp-form-error-message {
+    clear: both;
+    display: none;
+    padding-top: 8px;
+    font-weight: lighter;
+}
+.pp-form-field input,
+.pp-form-field input[type=text] {
+	height: auto;
+	width: 100%;
+}
+.pp-subscribe-form .pp-form-field.pp-acceptance-field {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.pp-form-field.pp-checkbox-input input {
+	width: auto;
+	display: inline-block;
+	margin-right: 4px;
+}
+.pp-form-field.pp-checkbox-input label {
+	font-weight: 400;
+	display: inline-block;
+	cursor: pointer;
+}
+.pp-subscribe-form-inline .pp-form-field {
+	float: left;
+	margin: 0;
+	padding-right: 10px;
+	width: 33.33%;
+}
+.pp-subscribe-form-inline.pp-subscribe-form-name-hide .pp-form-field {
+	width: 66.66%;
+}
+.pp-subscribe-form-inline .pp-form-button {
+	float: left;
+	width: 33.33%;
+}
+
+.pp-subscribe-form-inline a.fl-button {
+	width: 100%;
+	text-align: center;
+}
+
+.pp-subscribe-form a.fl-button {
+	text-align: center;
+}
+
+.pp-subscribe-form-compact .pp-form-field {
+	width: 50% !important;
+	margin-bottom: 15px;
+	float: left;
+}
+
+.pp-subscribe-form .pp-form-error-message,
+.pp-subscribe-form .pp-form-success-message {
+	font-weight: 400;
+}
+
+.pp-subscribe-form .pp-subscribe-form-footer {
+	margin-top: 15px;
+}
