@@ -33,7 +33,7 @@
 <a class="nav-link" href="index.php">a propos</a>
 </li>
 <li class="nav-item">
-<a class="nav-link" href="domaines-compétences.php">domaines de compétences</a>
+<a class="nav-link" href="domaines-competences.php">domaines de compétences</a>
 </li>
 <li class="nav-item">
 <a class="nav-link" href="equipes.php">équipes</a>
@@ -311,11 +311,11 @@
 <div class="row">
   
   <div class="col-sm-6">
-<button type="button" class="btn btn-lg btn-outline-dark" href="domaines-competences.php">Domaines de compétences</button>
+<a class="btn btn-lg btn-outline-dark" href="domaines-competences.php" role="button">Domaines de compétences</a>
   </div>
 
   <div class=col-sm-6">
-  <button type="button" class="btn btn-lg btn-outline-dark" href="equipes.php">Équipes</button>
+<a class="btn btn-lg btn-outline-dark" href="equipes.php" role="button">Équipes</a>
   </div>
 </div> <!--Row -->
 
@@ -326,7 +326,7 @@
 <div class="col-sm-12">
   <h2>philosophie</h2>
   <p>Les avocats représentent et défendent leurs clients dans des affaires aussi diverses qu’un divorce, une succession, un litige, un vol, un crime, etc. Et, de fait, certains avocats se spécialisent : avocat d'affaires, avocat en droit du travail, avocat en droit de la famille. Les avocats représentent et défendent leurs clients dans des affaires aussi diverses qu’un divorce, une succession, un litige, un vol, un crime, etc. Et, de fait, certains avocats se spécialisent : avocat d'affaires, avocat en droit du travail, avocat en droit de la famille. Les avocats représentent et défendent leurs clients dans des affaires aussi diverses qu’un divorce, une succession, un litige, un vol, un crime, etc. Et, de fait, certains avocats se spécialisent : avocat d'affaires, avocat en droit du travail, avocat en droit de la famille. Les avocats représentent et défendent leurs clients dans des affaires aussi diverses qu’un divorce, une succession, un litige, un vol, un crime, etc. Et, de fait, certains avocats se spécialisent : avocat d'affaires, avocat en droit du travail, avocat en droit de la famille. </p>
-  <button id="btnrdv" type="button" class="btn btn-lg btn-outline-dark" href="contacts.php">Je prends rendez-vous</button>
+<a class="btn btn-lg btn-outline-dark" href="contact.php" role="button">Je prends rendez-vous</a>
 </div>
 </main>
 
