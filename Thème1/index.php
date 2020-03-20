@@ -61,6 +61,7 @@
             <p>Les avocats représentent et défendent leurs clients dans des affaires aussi diverses qu’un divorce, une succession, un litige, un vol, un crime, etc. Et, de fait, certains avocats se spécialisent : avocat d'affaires, avocat en droit du travail, avocat en droit de la famille. Les avocats représentent et défendent leurs clients dans des affaires aussi diverses qu’un divorce, une succession, un litige, un vol, un crime, etc. Et, de fait, certains avocats se spécialisent : avocat d'affaires, avocat en droit du travail, avocat en droit de la famille. Les avocats représentent et défendent leurs clients dans des affaires aussi diverses qu’un divorce, une succession, un litige, un vol, un crime, etc. Et, de fait, certains avocats se spécialisent : avocat d'affaires, avocat en droit du travail, avocat en droit de la famille. Les avocats représentent et défendent leurs clients dans des affaires aussi diverses qu’un divorce, une succession, un litige, un vol, un crime, etc. Et, de fait, certains avocats se spécialisent : avocat d'affaires, avocat en droit du travail, avocat en droit de la famille.  </p>
     </div>
     
+    <div class="col-sm-12">
     <!-- TimeLine -->
     <h2>historiques</h2>
 
@@ -303,11 +304,36 @@
         </div>
       </div>
     </div>
+  </div> <!--/row-->
+</div> <!--container-->
+
+<!-- Button -->
+<div class="row">
+  
+  <div class="col-sm-6">
+<button type="button" class="btn btn-lg btn-outline-dark" href="domaines-competences.php">Domaines de compétences</button>
   </div>
-  <!--/row-->
-</div>
-<!--container-->
+
+  <div class=col-sm-6">
+  <button type="button" class="btn btn-lg btn-outline-dark" href="equipes.php">Équipes</button>
+  </div>
+</div> <!--Row -->
+
 </section>
+
+<section>
+
+<div class="col-sm-12">
+  <h2>philosophie</h2>
+  <p>Les avocats représentent et défendent leurs clients dans des affaires aussi diverses qu’un divorce, une succession, un litige, un vol, un crime, etc. Et, de fait, certains avocats se spécialisent : avocat d'affaires, avocat en droit du travail, avocat en droit de la famille. Les avocats représentent et défendent leurs clients dans des affaires aussi diverses qu’un divorce, une succession, un litige, un vol, un crime, etc. Et, de fait, certains avocats se spécialisent : avocat d'affaires, avocat en droit du travail, avocat en droit de la famille. Les avocats représentent et défendent leurs clients dans des affaires aussi diverses qu’un divorce, une succession, un litige, un vol, un crime, etc. Et, de fait, certains avocats se spécialisent : avocat d'affaires, avocat en droit du travail, avocat en droit de la famille. Les avocats représentent et défendent leurs clients dans des affaires aussi diverses qu’un divorce, une succession, un litige, un vol, un crime, etc. Et, de fait, certains avocats se spécialisent : avocat d'affaires, avocat en droit du travail, avocat en droit de la famille. </p>
+  <button id="btnrdv" type="button" class="btn btn-lg btn-outline-dark" href="contacts.php">Je prends rendez-vous</button>
+</div>
 </main>
+
+<footer id="sticky-footer" class="py-4 text-white-50">
+    <div class="container text-center">
+      <small>Copyright &copy; Your Website</small>
+    </div>
+  </footer>
 </body>
 </html>
