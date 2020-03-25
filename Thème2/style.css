@@ -1,0 +1,154 @@
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand{
+    color:#7fe7dc;
+    font-size: 30px;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link{
+    color: #7fe7dc;
+    font-size: 23px;
+    text-transform: uppercase;
+    padding-right: 1.5em;
+}
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover{
+    color: #f47a60;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover{
+    color: #f47a60;
+}
+#Nav{
+    background-color: #316879;
+}
+#premiere-ranger{
+    text-align: center;
+    background-color: #7fe7dc;
+    height: 95vh;
+}
+#citation{
+    padding-top: 7.5em;
+    font-size: 22px;
+    text-align: center;
+}
+#illustration{
+    padding-top: 7.5em;
+}
+.round-circle, .img-fluid{
+    width: 30em;
+    height: 25em;
+}
+p{
+    padding-top: 1.5em;
+}
+.myButton {
+	background-color:#316879;
+	border-radius:42px;
+	border:1px solid #316879;
+	display:inline-block;
+	cursor:pointer;
+	color:#ced7d8;
+	font-family:Trebuchet MS;
+	font-size:22px;
+	font-weight:bold;
+	padding:11px 21px;
+	text-decoration:none;
+    text-shadow:0px 0px 5px #316879;
+}
+.myButton:hover {
+    background-color:#316879;
+    color: #f47a60;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+#description{
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 1.5em;
+    padding-bottom: 1em;
+    border: 5px solid #316879;
+    border-radius: 80px;
+    background-color: #ced7d8;
+}
+#border{
+    padding-top: 1em;
+    background-color: #316879;
+}
+#domaines-competences{
+    text-align: center;
+    
+}
+.circle:hover{
+    margin:10px;
+    width:200px;
+    height:200px;
+    border-radius:100%;
+    border:3px solid;
+    color:#316879;
+    text-align:center;
+    font-size:14px;
+    overflow:hidden;
+    padding-top: 4.5em;
+    background-color:#f47a60;
+}
+.circle{
+    margin:10px;
+    width:200px;
+    height:200px;
+    border-radius:100%;
+    border:3px solid;
+    color:#316879;
+    text-align:center;
+    font-size:14px;
+    overflow:hidden;
+    padding-top: 4.5em;
+    background-color:#ced7d8;
+}
+.col-sm-6{
+    text-align: center;
+}
+#circle{
+    padding-top: 1.5em;
+    padding-left: 2em;
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 1.2em;
+}
+
+h2{
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 2em;
+}
+h3{
+    color: #316879;
+}
+
+#sticky-footer {
+  padding-top: 2em;
+  background-color: #316879;
+  color: #ced7d8;
+}
+#mention{
+    color: #ced7d8;
+}
+#mention:hover{
+    color: #f47a60;
+}
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 #316879;
+    transition: 0.5s;
+    text-align: center;
+    background-color: #316879;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
+  }

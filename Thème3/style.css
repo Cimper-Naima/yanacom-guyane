@@ -1,0 +1,15 @@
+body{
+    background-color: gray;
+    padding-top: 1em;
+}
+
+.navbar-expand-sm .navbar-nav .nav-link{
+    color: whitesmoke;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+}
+
+.navbar-expand-sm .navbar-nav .nav-link:hover{
+    color: goldenrod;
+}
